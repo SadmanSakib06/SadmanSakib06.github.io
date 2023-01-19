@@ -194,9 +194,8 @@ h6 {
 
 .skills {
   position: relative;
-  letter-spacing: 1pt;
-  padding: 10px;
-  line-height: 30px;
+  letter-spacing: 1.5pt;
+  padding: 20px;
   margin-left: 20px;
 }
 .project {
