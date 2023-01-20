@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100pt;
 }
 
 .container {
@@ -207,4 +207,26 @@ h6 {
   text-align: center;
   color: #666;
   font-family: "Times New Roman", Times, serif;
+}
+
+.about .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+
+}
+
+.about .box .year{
+  min-width: 150px;
+  margin-bottom: 10px;
+
+}
+.about .box .year h5{
+  color: #333;
+  font-weight: 600;
+
+}
+.about .box .year h5:nth-child(1){
+  color: orange;
+  margin: 0;
 }
