@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: coral;   /* #149ddd #FF7F50 #ff8c62 #ff9973 */ 
+  color: coral; /* #149ddd #FF7F50 #ff8c62 #ff9973 */
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ff9973; /* #2eafec #37b3ed  #149ddd #FF7F50 #ff8c62 #ff9973 */ 
+  background: #ff9973; /* #2eafec #37b3ed  #149ddd #FF7F50 #ff8c62 #ff9973 */
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -185,7 +185,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
@@ -193,7 +193,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
+.nav-menu li:hover > a i {
   color: coral; /* #149ddd */
 }
 
@@ -318,7 +318,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #331910; /* #173b6c #2eafec #37b3ed  #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */  
+  color: #331910; /* #173b6c #2eafec #37b3ed  #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */
 }
 
 .section-title h2::after {
@@ -405,21 +405,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #4c2618 ;  /* #122f57; */
+  color: #4c2618; /* #122f57; */
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #4c2618;  /* #122f57; */
+  color: #4c2618; /* #122f57; */
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #cc6640; /* #1f5297 #173b6c #2eafec #37b3ed  #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */ 
+  color: #cc6640; /* #1f5297 #173b6c #2eafec #37b3ed  #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */
 }
 
 /*--------------------------------------------------------------
@@ -518,7 +518,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #b35938;  /* #1f5297 #173b6c #2eafec #37b3ed 
+  border: 2px solid #b35938; /* #1f5297 #173b6c #2eafec #37b3ed 
                                     #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */
 }
 
@@ -607,7 +607,7 @@ section {
   background: #5f5f5f;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #f2f2f2;
 }
 
@@ -640,7 +640,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -648,7 +651,10 @@ section {
   border: 1px solid coral; /* #149ddd */
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: coral; /* #149ddd */
 }
 
@@ -672,7 +678,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -857,7 +863,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff2ee ; /* #dff3fc */ 
+  background: #fff2ee; /* #dff3fc */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -943,7 +949,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -998,7 +1004,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: coral; /* #149ddd */
   border: 0;
   padding: 10px 24px;
@@ -1007,7 +1013,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #ff8c62; /* #37b3ed */
 }
 
@@ -1043,14 +1049,14 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #331910 ; /* #0e2442 #1f5297 #173b6c #2eafec #37b3ed 
+  color: #331910; /* #0e2442 #1f5297 #173b6c #2eafec #37b3ed 
                         #149ddd #b35938 #cc6640 #e67248 #FF7F50 #ff8c62 #ff9973 */
   content: "/";
 }
